@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja to cat</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('div.c0 #d00').hide();
+            $('div.c0 img').click(function(){
+                $('div.c0').children().toggle();
+            });
+            $('div.c1 #d10').hide();
+            $('div.c1 img').click(function(){
+                $('div.c1').children().toggle();
+            });
+            $('div.c2 #d20').hide();
+            $('div.c2 img').click(function(){
+                $('div.c2').children().toggle();
+            });
+            $('div.c3 #d30').hide();
+            $('div.c3 img').click(function(){
+                $('div.c3').children().toggle();
+            });
+            $('div.c4 #d40').hide();
+            $('div.c4 img').click(function(){
+                $('div.c4 img').toggle();
+            });
+        });
+    </script>
+    
+</head>
+<body>
+    <div class="c0">
+        <img src="ninja0.png" alt="ninja0">
+        <img src="cat0.png" id="d00" alt="dd">
+    </div>
+    <div class="c1">
+        <img src="ninja1.png" alt="ninja0">
+        <img src="cat1.png" id="d10" alt="dd">
+    </div>
+    <div class="c2">
+        <img src="ninja2.png" alt="ninja0">
+        <img src="cat2.png" id="d20" alt="dd">
+    </div>
+    <div class="c3">
+        <img src="ninja3.png" alt="ninja0">
+        <img src="cat3.png" id="d30" alt="dd">
+    </div>
+    <div class="c4">
+        <img src="ninja4.png" alt="ninja0">
+        <img src="cat4.png" id="d40" alt="dd">
+    </div>
+    
+</body>
+</html>

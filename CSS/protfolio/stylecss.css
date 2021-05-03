@@ -1,0 +1,131 @@
+*{
+    margin: auto;
+    
+}
+#baselayer {
+    width: 970px;
+    min-height: 1030px;
+    
+}
+#top {
+    background-color: rgb(212, 200, 152);
+    min-width: 970px;
+    min-height: 60px;
+    margin-bottom: 0px;
+    display: flex;
+    
+
+}
+#p1 {
+    flex: 1;
+    min-width: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 50px;
+}
+#p2 {
+    flex: 2;
+    min-width: 50px;
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#mid {
+    background-image: radial-gradient(silver,purple);
+    height: 849px;
+    width: 970px;
+    margin-top: 0px;
+    
+}
+.row1 {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#row11 {
+    min-height: 200px;
+    min-width: 200px;
+    flex: 1;
+    padding: 15px;
+    
+}
+#row12 {
+    min-height: 200px;
+    width: 150px;
+    flex: 1;
+    margin-top: 15px;
+    padding: 0px 15px;
+}
+#h2row12 {
+    background-color: gray;
+    height: auto;
+}
+#prow12 {
+    background-color: rgb(109, 79, 79);
+    height: 270px;
+
+}
+.row2 {
+    
+    
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 970px;
+
+}
+.boxes {
+    min-height: 500px;
+    width: 150px;
+    flex: 1;
+    background-image: linear-gradient(gray,blue);
+    margin: 0px 15px;
+    
+    
+}
+.imgg {
+    margin: 5px;
+}
+#submit {
+    display: block;
+    align-items: center;
+    margin-top: 20px;
+    background-color: hotpink;
+}
+.h2boxes {
+    background-color: rgb(143, 184, 109);
+}
+#bottom {
+    background-color: rgb(212, 200, 152);
+    margin-bottom: 0px;
+    padding: 0px;
+    min-height: 60px;
+    min-width: 970px;
+    display: inline-block;
+    align-items: center;
+    
+    
+}
+#final2 {
+    
+    align-items: center;
+    width: 350px;
+    margin-bottom: 1px;
+    height: 20px;
+    padding: 0px;
+    
+}
+#final1 {
+    
+    align-items: center;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+    padding: 0px;
+}
